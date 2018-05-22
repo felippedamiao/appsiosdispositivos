@@ -10,7 +10,8 @@ import UIKit
 
 class QuizViewController: UIViewController {
 
-    @IBOutlet weak var viTimer: UILabel!
+
+    @IBOutlet weak var viTimer: UIView!
     @IBOutlet weak var lbQuestion: UILabel!
     @IBOutlet var btAnswers: [UIButton]!
     
