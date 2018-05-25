@@ -172,11 +172,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlC-Zw-Teo">
-                                <rect key="frame" x="16" y="551" width="343" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlC-Zw-Teo">
+                                <rect key="frame" x="16" y="599" width="343" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="dgo-ve-lcm"/>
+                                    <constraint firstAttribute="height" constant="34" id="eXz-x6-b2F"/>
                                 </constraints>
                                 <state key="normal" title="Gerar Novamente">
                                     <color key="titleColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -185,8 +185,8 @@
                                     <action selector="generate:" destination="UeG-MW-Flp" eventType="touchUpInside" id="isC-Zc-DpV"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" text="999" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mQG-8m-5DM">
-                                <rect key="frame" x="16" y="138" width="343" height="397"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="999" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mQG-8m-5DM">
+                                <rect key="frame" x="16" y="138" width="343" height="449"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -204,14 +204,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.59607843140000005" green="0.14117647059999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="zlC-Zw-Teo" firstAttribute="leading" secondItem="Acs-Yj-3iJ" secondAttribute="leading" constant="16" id="2ud-sc-Cod"/>
-                            <constraint firstItem="zlC-Zw-Teo" firstAttribute="top" secondItem="mQG-8m-5DM" secondAttribute="bottom" constant="16" id="Az5-TD-gzc"/>
-                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="bottom" secondItem="Xjl-0X-Ssp" secondAttribute="bottom" constant="8" id="DyT-F3-WFe"/>
-                            <constraint firstItem="mQG-8m-5DM" firstAttribute="top" secondItem="Acs-Yj-3iJ" secondAttribute="top" constant="22" id="NKr-S4-miC"/>
-                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="zlC-Zw-Teo" secondAttribute="trailing" constant="16" id="ZWe-sg-029"/>
-                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="Xjl-0X-Ssp" secondAttribute="trailing" constant="16" id="rhS-gE-XQ5"/>
-                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="mQG-8m-5DM" secondAttribute="trailing" constant="16" id="tjO-B3-LHb"/>
-                            <constraint firstItem="mQG-8m-5DM" firstAttribute="leading" secondItem="Acs-Yj-3iJ" secondAttribute="leading" constant="16" id="x7G-hI-s5z"/>
+                            <constraint firstItem="zlC-Zw-Teo" firstAttribute="leading" secondItem="Acs-Yj-3iJ" secondAttribute="leading" constant="16" id="CRn-nS-Um4"/>
+                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="Xjl-0X-Ssp" secondAttribute="trailing" constant="16" id="QKW-iE-Zfl"/>
+                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="bottom" secondItem="zlC-Zw-Teo" secondAttribute="bottom" constant="34" id="VI6-vK-mki"/>
+                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="zlC-Zw-Teo" secondAttribute="trailing" constant="16" id="WwC-Jb-3lG"/>
+                            <constraint firstItem="mQG-8m-5DM" firstAttribute="leading" secondItem="Acs-Yj-3iJ" secondAttribute="leading" constant="16" id="dGA-jE-fBU"/>
+                            <constraint firstItem="zlC-Zw-Teo" firstAttribute="top" secondItem="mQG-8m-5DM" secondAttribute="bottom" constant="12" id="nfJ-kb-Pml"/>
+                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="trailing" secondItem="mQG-8m-5DM" secondAttribute="trailing" constant="16" id="vqe-gd-7t2"/>
+                            <constraint firstItem="mQG-8m-5DM" firstAttribute="top" secondItem="Acs-Yj-3iJ" secondAttribute="top" constant="22" id="ybt-f5-kbZ"/>
+                            <constraint firstItem="Acs-Yj-3iJ" firstAttribute="bottom" secondItem="Xjl-0X-Ssp" secondAttribute="bottom" constant="8" id="zSU-18-nrM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Acs-Yj-3iJ"/>
                     </view>
@@ -251,7 +252,7 @@
                                 <rect key="frame" x="30" y="62" width="321" height="547"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">1. Escolha senhas fáceis de lembrar 
+                                <string key="text">1. Escolha senhas fáceis de lembrar 
 Uma senha fácil de guardar na memória evita que o usuário tenha que anotá-la em papeis ou arquivos, que podem chegar às mãos de pessoas erradas.
 
 2. Não use palavras reais 
@@ -279,7 +280,7 @@ Esse procedimento evita possíveis fraudes. Ao abrir links suspeitos, o usuário
 Muitos ataques podem ser evitados ao ativar serviços básicos de proteção na internet dos antivírus.
 
 10.  Se você achar que é difícil lembrar-se de várias senhas complexas, considere a instalação de um gerenciadores de senhas 
-Há diversos programas disponíveis que armazenam os dados de maneira segura e ajudam os mais esquecidos.</mutableString>
+Há diversos programas disponíveis que armazenam os dados de maneira segura e ajudam os mais esquecidos.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
