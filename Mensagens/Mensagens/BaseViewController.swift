@@ -19,7 +19,11 @@ class BaseViewController: UIViewController {
     }
 
     @IBAction func changeColor(_ sender: UIButton){
-        
+        if let reference = self as? ColorPickerProtocol{
+            let colorPicker = storyboard?.instantiateViewController(withIdentifier: "ColorPickerViewController") as! ColorPickerViewController
+        colorPicker.modalPresentationStyle = .overCurrentContext
+        colorPicker.reference = reference
+        present(colorPicker, animated: true, completion: nil)
     }
-
+}
 }
