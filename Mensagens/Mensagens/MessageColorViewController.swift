@@ -23,7 +23,7 @@ class MessageColorViewController: BaseViewController {
     }
     
 }
-extension MessageColorViewController: ColorPickerProtocol {
+extension MessageColorViewController: ColorPickerDelegate {
     func applyColor(color: UIColor) {
         lbMessage.backgroundColor = color
         message.backgroundColor = color

@@ -33,7 +33,7 @@ extension MessageViewController : UITextFieldDelegate {
     }
 }
 
-extension MessageViewController: ColorPickerProtocol {
+extension MessageViewController: ColorPickerDelegate {
     func applyColor(color: UIColor) {
         lbMessage.textColor = color
         message.textColor = color
