@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E233396E20B983F100F4415B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233396D20B983F100F4415B /* AppDelegate.swift */; };
-		E233397020B983F100F4415B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233396F20B983F100F4415B /* ViewController.swift */; };
+		E233397020B983F100F4415B /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233396F20B983F100F4415B /* ShoppingViewController.swift */; };
 		E233397320B983F100F4415B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233397120B983F100F4415B /* Main.storyboard */; };
 		E233397520B983F400F4415B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E233397420B983F400F4415B /* Assets.xcassets */; };
 		E233397820B983F400F4415B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233397620B983F400F4415B /* LaunchScreen.storyboard */; };
+		E25D90C820EB085E008D836B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D90C720EB085E008D836B /* SettingsViewController.swift */; };
+		E25D90CA20EB0926008D836B /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D90C920EB0926008D836B /* TaxesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E233396A20B983F100F4415B /* ComprasUSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComprasUSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E233396D20B983F100F4415B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E233396F20B983F100F4415B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E233396F20B983F100F4415B /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		E233397220B983F100F4415B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E233397420B983F400F4415B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E233397720B983F400F4415B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E233397920B983F400F4415B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25D90C720EB085E008D836B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E25D90C920EB0926008D836B /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				E233396D20B983F100F4415B /* AppDelegate.swift */,
-				E233396F20B983F100F4415B /* ViewController.swift */,
+				E233396F20B983F100F4415B /* ShoppingViewController.swift */,
+				E25D90C720EB085E008D836B /* SettingsViewController.swift */,
+				E25D90C920EB0926008D836B /* TaxesViewController.swift */,
 				E233397120B983F100F4415B /* Main.storyboard */,
 				E233397420B983F400F4415B /* Assets.xcassets */,
 				E233397620B983F400F4415B /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E233397020B983F100F4415B /* ViewController.swift in Sources */,
+				E25D90CA20EB0926008D836B /* TaxesViewController.swift in Sources */,
+				E233397020B983F100F4415B /* ShoppingViewController.swift in Sources */,
 				E233396E20B983F100F4415B /* AppDelegate.swift in Sources */,
+				E25D90C820EB085E008D836B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
