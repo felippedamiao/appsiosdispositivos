@@ -2,7 +2,7 @@
 //  SettingsViewController.swift
 //  ComprasUSA
 //
-//  Created by Macintosh on 02/07/18.
+//  Created by Macintosh on 03/07/18.
 //  Copyright © 2018 Macintosh. All rights reserved.
 //
 
